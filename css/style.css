@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b07cf7;
+    color: white;
+    font-family: sans-serif;
+}
+section {
+    padding: 100px 0;
+}
+h1 {
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-text > p {
+    font-size: 22px;
+    text-align: center;
+    margin: 30px 0 45px;
+}
+.blog {
+    width: 1170px;
+    margin: 0 auto;
+}
+.main-text {
+    width: 570px;
+    margin: 0 auto;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.card > div:hover {
+    box-shadow: 0 5px 40px hsl(128deg 74% 47%), -5px 5px 10px hsl(24deg 37% 65%), 5px -5px 10px hsl(35deg 10% 38%), 5px 0 10px hsl(29deg 82% 76%);
+    transition: all .3s ease-in;
+}
+.card-1 {
+    width: 370px;
+    height: 310px;
+    background: url(../img/image-1.jpg) center no-repeat;
+    display: grid;
+   
+}
+.card-2 {
+    width: 370px;
+    height: 310px;
+    background: url(../img/image-2.jpg) center no-repeat;
+    display: grid;
+}
+.card-3 {
+    width: 370px;
+    height: 310px;
+    background: url(../img/image-3.jpg) center no-repeat;
+    display: grid;
+}
+.data {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.content {
+    margin: 30px 20px;
+    display: grid;  
+}
+.description {
+    align-self: end;
+    font-family: cursive;
+}
+.text {
+    text-shadow: -5px 1px 8px #000000, 0 0 3em #000000;
+    font-size: 26px;
+    font-weight: 600;
+}
+.time {
+ opacity: 0.6;
+}
+.button {
+    height: 60px;
+    margin: 70px auto;
+    position: relative;
+    width: 200px;
+  }
+  .submit {
+    align-items: center;
+    background: #f72b3b;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    height: 60px;
+    justify-content: center;
+    position: absolute;
+    transition: background 300ms, opacity 500ms 800ms;
+    user-select: none;
+    width: 200px;
+  }
+  .submit:hover {
+    background: #0e232e;
+    
+  }
+  svg {
+    left: -200px;
+    position: absolute;
+    top: -60px;
+    transform: scale(1);
+  }
+  path {
+    fill:#0e232e;
+    stroke:#0e232e;
+    transform-origin: 50%;
+    transition: transform 1200ms cubic-bezier(0.6, -0.48, 0.735, 0.045), fill 1200ms, stroke 1200ms;
+  }
+  
